@@ -47,6 +47,8 @@ function formBricks(patternArray) {
     patternArray = patternArray.split("\n");
     let __brickHeight = envMaxX * 0.01;
     let __brickWidth = envMaxX * 0.05;
+    __brickHeight = (__brickHeight<10) ? 10 : __brickHeight;
+
     for(let i=0;i<patternArray.length;i++){
         let row = patternArray[i].split("");
         for(let j=0;j<row.length;j++){

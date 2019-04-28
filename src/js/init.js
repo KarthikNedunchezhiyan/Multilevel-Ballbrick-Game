@@ -9,6 +9,8 @@ let __brickPattern = ["     ##     \n     ##     \n###########\n#         #\n#  
 let __level = -1;
 
 let __paddleWidth = envMaxX * 0.1;
+__paddleWidth = (__paddleWidth < 85) ? 85 : __paddleWidth;
+
 let __paddleHeight = envMaxY * 0.02;
 let paddle = new Paddle(envMaxX/2,envMaxY-__paddleHeight,__paddleWidth,__paddleHeight,document.getElementById("paddle"));
 paddle.update();
