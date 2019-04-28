@@ -12,7 +12,7 @@ let __paddleWidth = envMaxX * 0.1;
 __paddleWidth = (__paddleWidth < 85) ? 85 : __paddleWidth;
 
 let __paddleHeight = envMaxY * 0.02;
-let paddle = new Paddle(envMaxX/2,envMaxY-__paddleHeight,__paddleWidth,__paddleHeight,document.getElementById("paddle"));
+let paddle = new Paddle(envMaxX/2,envMaxY-__paddleHeight - 100 ,__paddleWidth,__paddleHeight,document.getElementById("paddle"));
 paddle.update();
 
 //Walls on four side
@@ -20,7 +20,7 @@ let wallWidth = 0.01;
 new Participant("wall",0,0,wallWidth,envMaxY); //left
 new Participant("wall",0,0,envMaxX,wallWidth); //top
 new Participant("wall",envMaxX-wallWidth,0,wallWidth,envMaxY); //right
-new Participant("wall",0,envMaxY-wallWidth,envMaxX,wallWidth); //bottom
+new Participant("wall",0,formCoordinates(paddle).bottom,envMaxX,wallWidth); //bottom
 
 //Ball
 let __mainballRadius = envMaxX * 0.01;
