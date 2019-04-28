@@ -80,4 +80,9 @@ window.document.onmousemove = event => {
     paddle.update();
 };
 
+window.document.ontouchmove = event => {
+    paddle.move(event.touches[0].clientX);
+    paddle.update();
+};
+
 moveNextLevel();
