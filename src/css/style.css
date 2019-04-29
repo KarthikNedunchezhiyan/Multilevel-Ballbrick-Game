@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 .wall,.ball,#paddle,#env_container,#container,#brick_container,[class^='power-'] {
     z-index: 5;
     position: absolute;

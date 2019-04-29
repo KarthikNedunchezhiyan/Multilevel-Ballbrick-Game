@@ -158,7 +158,7 @@ function producePower(target) {
                 participant = new Participant(`power-${__power[1]}`,target.position.x + (target.shape.x/2),target.position.y,__powerRadius,__powerRadius,0,2,false);
                 let fingerPrint = getNewFingerPrint();
                 participant.onCollide = target => {
-                    if(target.type === "paddle" || (formCoordinates(participant).bottom >= envMaxY)){
+                    if(target.type === "paddle" || target.type === "bottom-wall"){
                         if(target.type === "paddle"){
                             removeAllPower(__mainball);
                             participantArray.forEach(part=>{
