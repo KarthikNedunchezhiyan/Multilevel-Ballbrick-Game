@@ -8,7 +8,7 @@ Parameter | value
 Special Power Probalility | 0.1
 Ball Speed | 5
 Powers | fireball,rowblast
-Max Level | 2
+Max Level | 3
 
 ## Screenshots
 
