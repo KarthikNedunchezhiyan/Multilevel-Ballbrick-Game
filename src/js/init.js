@@ -99,12 +99,12 @@ function reinit(){
     paddle.move((envMaxX/2) - (paddle.shape.x/2));
 
     window.document.onmousemove = event => {
-        paddle.move(event.clientX);
+        paddle.move(event.clientX - (paddle.shape.x/2));
         paddle.update();
     };
 
     window.document.ontouchmove = event => {
-        paddle.move(event.touches[0].clientX);
+        paddle.move(event.touches[0].clientX - (paddle.shape.x/2));
         paddle.update();
     };
 
