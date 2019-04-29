@@ -5,7 +5,9 @@ let participantArray = [];
 let brickPowers = ["brick-fireball","brick-rowblast"];
 
 let __brickPattern = ["     ##     \n     ##     \n###########\n#         #\n#  ## ##  #\n#         #\n#    #    #\n# #     # #\n#  #####  #\n#         #\n###########",
-"########\n########\n########"];
+    "# # # # # # # #\n # # # # # # # \n  # # # # # #  \n   # # # # #   \n    # # # #    \n     # # #     \n      # #      \n       #       ",
+    "#           #\n# #       # #\n# # #   # # #\n# # # # # # #\n# # # # # # #\n# #   #   # #\n#     #     #\n      #      "];
+
 let __level = -1;
 
 let __paddleWidth = envMaxX * 0.1;
