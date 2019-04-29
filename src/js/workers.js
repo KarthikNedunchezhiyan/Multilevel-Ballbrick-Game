@@ -215,6 +215,5 @@ function moveNextLevel() {
 
 function reduceLive() {
     clearInterval(__gameLoop);
-
-
+    document.getElementById("game_over_container").style.display = "block";
 }

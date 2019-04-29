@@ -143,3 +143,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#game_over_container{
+    display: none;
+}
+
+#game_over_container button{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    cursor: pointer;
+}

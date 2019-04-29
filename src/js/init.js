@@ -19,6 +19,7 @@ let __mainball = null;
 let __gameLoop = null;
 
 function reinit(){
+    document.getElementById("game_over_container").style.display = "none";
 
     document.querySelectorAll("[data-type]").forEach(type=>{
         if(type.getAttribute("data-type")!=="paddle")
