@@ -212,3 +212,9 @@ function moveNextLevel() {
         formBricks(__brickPattern[__level]);
     }
 }
+
+function reduceLive() {
+    clearInterval(__gameLoop);
+
+
+}
