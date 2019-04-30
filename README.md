@@ -13,11 +13,11 @@ Max Level | 3
 ## Screenshots
 
 <p>
-    <img src="src/images/screenshot1.png">
+    <img src="client/images/screenshot1.png">
     <em>Level 1</em>
 </p>
 <p>
-    <img src="src/images/screenshot2.png">
+    <img src="client/images/screenshot2.png">
     <em>Fireball Power</em>
 </p>
   
