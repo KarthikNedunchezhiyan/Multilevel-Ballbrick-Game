@@ -1,0 +1,7 @@
+{
+  "name": "BallBrick",
+  "version": "1.0.0",
+  "description": "This game is made using vanilla js and no canvas, As it is designed in module form, anyone can clone this repo and customize easily",
+  "homepage": "index.html",
+  "login_redirect":"home.html"
+}
