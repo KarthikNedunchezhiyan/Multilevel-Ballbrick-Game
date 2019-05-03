@@ -1,5 +1,5 @@
 # Multilevel-Ballbrick-Game
-This game is made using vanilla js and no canvas, As it is designed in module form, anyone can clone this repo and customize easily || Demo in [@live demo](https://karthiknedunchezhiyan.github.io/Multilevel-Ballbrick-Game/src/index.html) || You can also use this [@Multilevel-Ballbrick-game](https://github.com/KarthikNedunchezhiyan/Multilevel-Ballbrick-Game) as a playground to practice Machine Learning || Check my other works [@MyRepos](https://github.com/KarthikNedunchezhiyan) || To know more about Ball Bricker game [@WiKi](https://en.wikipedia.org/wiki/Brick_Breaker)
+This game is made using vanilla js and no canvas, As it is designed in module form, anyone can clone this repo and customize easily || Demo in [@live demo](https://karthiknedunchezhiyan.github.io/Multilevel-Ballbrick-Game) || You can also use this [@Multilevel-Ballbrick-game](https://github.com/KarthikNedunchezhiyan/Multilevel-Ballbrick-Game) as a playground to practice Machine Learning || Check my other works [@MyRepos](https://github.com/KarthikNedunchezhiyan) || To know more about Ball Bricker game [@WiKi](https://en.wikipedia.org/wiki/Brick_Breaker)
 
 ## Configurations
 
@@ -13,11 +13,11 @@ Max Level | 3
 ## Screenshots
 
 <p>
-    <img src="src/images/screenshot1.png">
+    <img src="client/images/screenshot1.png">
     <em>Level 1</em>
 </p>
 <p>
-    <img src="src/images/screenshot2.png">
+    <img src="client/images/screenshot2.png">
     <em>Fireball Power</em>
 </p>
   
