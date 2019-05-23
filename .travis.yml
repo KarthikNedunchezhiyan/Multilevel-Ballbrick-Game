@@ -7,6 +7,4 @@ script:
 install:
     - npm install -g zcatalyst-cli
 after_success:
-    - ls
-    - cd Multilevel-Ballbrick-Game
-    - catalyst deploy --token $CATALYST_AUTH_TOKEN --project $CATALYST_PROJECT_ID
+    - ls && cd Multilevel-Ballbrick-Game && catalyst deploy --token $CATALYST_AUTH_TOKEN --project $CATALYST_PROJECT_ID
