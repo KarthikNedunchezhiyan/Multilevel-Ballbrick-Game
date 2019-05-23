@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+    - "10.0"
+
+script:
+    - echo "Deploying catalyst app!"
+install:
+    - npm install -g zcatalyst-cli
+after_success:
+    - catalyst deploy --token $CATALYST_AUTH_TOKEN
