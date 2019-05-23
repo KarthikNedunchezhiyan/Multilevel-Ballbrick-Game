@@ -7,4 +7,4 @@ script:
 install:
     - npm install -g zcatalyst-cli
 after_success:
-    - catalyst deploy --token $CATALYST_AUTH_TOKEN
+    - catalyst deploy --token $CATALYST_AUTH_TOKEN --project $CATALYST_PROJECT_ID
