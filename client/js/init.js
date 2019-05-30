@@ -113,4 +113,3 @@ function reinit(){
 }
 
 reinit();
-console.log("i am working.....");
